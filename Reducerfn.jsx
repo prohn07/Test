@@ -1,9 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 let userSlice = createSlice({
-  name: "User",
+  name: "Ur",
   initialState: { status: "initial", data: [], error: null },
-  reducers: { Rohan },
+  reducers: {},
 });
 
 export let { change } = userSlice.actions;
