@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useGetuserQuery } from "../thunk";
 
 function Child1() {
-  let { data, error, isLoading } = useGetuserQuery("/products");
+  let { data, error } = useGetuserQuery("/products");
   let data1 = useSelector((sourcedata) => sourcedata.user);
   let dispatch = useDispatch();
 
