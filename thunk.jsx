@@ -8,7 +8,7 @@ export let api = createApi({
       query: (A) => ({
         url: A,
       }),
-      keepUnusedDataFor: 60,
+      keepUnusedDataFor: 600,
     }),
   }),
 });
