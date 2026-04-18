@@ -6,8 +6,6 @@ let Store = configureStore({
   reducer: {
     [api.reducerPath]: api.reducer,
   },
-  middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat(api.middleware),
 });
 
 export default Store;
