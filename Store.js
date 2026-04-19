@@ -4,7 +4,7 @@ import { api } from "./thunk";
 
 let Store = configureStore({
   reducer: {
-    user: userReducer,
+    user: userRReducer,
     [api.reducerPath]: api.reducer,
   },
   middleware: (getDefaultMiddleware) =>
