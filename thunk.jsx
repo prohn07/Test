@@ -4,7 +4,7 @@ export let api = createApi({
   reducerPath: "API",
   baseQuery: fetchBaseQuery({ baseUrl: "https://fakestoreapi.com" }),
   endpoints: (builder) => ({
-    getuser: builder.query({
+    getuser: Builder.query({
       query: (A) => ({
         url: A,
       }),
