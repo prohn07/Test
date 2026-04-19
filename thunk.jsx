@@ -7,6 +7,7 @@ export let api = createApi({
     getuser: builder.query({
       query: (A) => ({
         url: A,
+        method: "GET",
       }),
       keepUnusedDataFor: 60,
     }),
