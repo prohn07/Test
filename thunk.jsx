@@ -9,7 +9,7 @@ export let api = createApi({
         url: A,
         method: "GET",
       }),
-      keepUnusedDataFor: 60,
+      keepUnusedDataFor: 6000,
     }),
   }),
 });
