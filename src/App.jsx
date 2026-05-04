@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <NavLink to={`/child1`}>child1</NavLink>
+      <NavLink to={`/child1`}>child2</NavLink>
       <NavLink to={`/`}>child</NavLink>
 
       <Routee />
