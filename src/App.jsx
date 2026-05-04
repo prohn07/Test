@@ -9,7 +9,11 @@ function App() {
     <>
       <NavLink to={`/child1`}>child1</NavLink>
       <NavLink to={`/`}>child</NavLink>
+<<<<<<< HEAD
       <Link to={"/child2"}>child2</Link>
+=======
+      <link></link>
+>>>>>>> 2345c56 (second)
 
       <Routee />
     </>
