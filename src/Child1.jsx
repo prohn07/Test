@@ -19,7 +19,7 @@ function Child1() {
           dispatch();
         }}
       >
-        click
+        click1
       </button>
     </>
   );
