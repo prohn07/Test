@@ -9,6 +9,7 @@ function App() {
     <>
       <NavLink to={`/child1`}>child1</NavLink>
       <NavLink to={`/`}>child</NavLink>
+      <Link to={"/child2"}>child2</Link>
 
       <Routee />
     </>
